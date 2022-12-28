@@ -23,6 +23,11 @@ Movie.propTypes = {
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-const MovieBox = styled.div``;
+const MovieBox = styled.div`
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+`;
 
 export default Movie;
